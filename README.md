@@ -45,8 +45,7 @@ Because it's something fast to create. Because it's not intrusive with the code.
 Whoever you want to, provided they wish you to do so. You can mention the developer, the designer, the copywriter, the webmaster, the SEO, SEM or SMO...
 As you can see, the number of people who may take part of the creation of a site can be big, so the list is almost endless.
 
-**Humans.txt**
-You can read more about it, on the [HumansTxt project page](http://humanstxt.org/).
+> **Humans.txt Project**: You can read more about it, on the [website](http://humanstxt.org/).
 
 ___
 

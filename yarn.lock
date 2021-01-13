@@ -1464,24 +1464,24 @@
     server-destroy "^1.0.1"
 
 "@nuxt/telemetry@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-1.3.0.tgz#0c6595c786c4fcb060ea8508aaf6285dce8201e0"
-  integrity sha512-anAhyccoVyy/RetkqVsIxpJKdAu/GHyLl79ZtH0oOCbYcC85k8d+LC1S10WcqXyeqyUKifLxGR6yPqSPmQCCtg==
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-1.3.2.tgz#a642888dd5d5e24b44b42028d2a10187348a88a1"
+  integrity sha512-Hx16EwlKo1sjsyz6qhsBYp/IC/82vXwqLp71QIf2IXyLhFPSiqXzHMY3/BxGiLr1o92C9s8hct3EwuSFTiex8w==
   dependencies:
     arg "^5.0.0"
     chalk "^4.1.0"
     ci-info "^2.0.0"
     consola "^2.15.0"
-    create-require "^1.1.0"
+    create-require "^1.1.1"
     defu "^3.2.2"
     destr "^1.0.1"
     dotenv "^8.2.0"
     fs-extra "^8.1.0"
-    git-url-parse "^11.4.0"
+    git-url-parse "^11.4.3"
     inquirer "^7.3.3"
     is-docker "^2.1.1"
-    jiti "^0.1.16"
-    nanoid "^3.1.18"
+    jiti "^1.0.0"
+    nanoid "^3.1.20"
     node-fetch "^2.6.1"
     parse-git-config "^3.0.0"
     rc9 "^1.2.0"
@@ -4500,7 +4500,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-require@^1.1.0, create-require@^1.1.1:
+create-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
@@ -6602,7 +6602,7 @@ git-up@^4.0.0:
     is-ssh "^1.3.0"
     parse-url "^5.0.0"
 
-git-url-parse@^11.4.0:
+git-url-parse@^11.4.3:
   version "11.4.3"
   resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.4.3.tgz#1610284edf1f14964180f5b3399ec68b692cfd87"
   integrity sha512-LZTTk0nqJnKN48YRtOpR8H5SEfp1oM2tls90NuZmBxN95PnCvmuXGzqQ4QmVirBgKx2KPYfPGteX3/raWjKenQ==
@@ -8320,10 +8320,15 @@ jimp-compact@^0.16.1:
   resolved "https://registry.yarnpkg.com/jimp-compact/-/jimp-compact-0.16.1.tgz#9582aea06548a2c1e04dd148d7c3ab92075aefa3"
   integrity sha512-dZ6Ra7u1G8c4Letq/B5EzAxj4tLFHL+cGtdpR+PVm4yzPDj+lCk+AbivWt1eOM+ikzkowtyV7qSqX6qr3t71Ww==
 
-jiti@^0.1.16, jiti@^0.1.17:
+jiti@^0.1.17:
   version "0.1.20"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-0.1.20.tgz#5fc8d4793f0e04e552f35c4a058ea62023e1bd36"
   integrity sha512-nlsuibooCG5yEjmGSVqxhjULy3rO1Gl0LDP+HpUMbzOSLcz5s1Gf5cPnjvHiei0JCG3SXX761HQArDzNIfdz4Q==
+
+jiti@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.1.0.tgz#01b2d1b9ea01e80adcbafb08a7027d4681c6b270"
+  integrity sha512-bNQ+heLBltC/62UQnFY3qYSHx8bJ1+gwEk4j/c9KAM/S1xzS/hzakuZPQztkzU69imuTVrihJRzg6utaqd7pUA==
 
 js-base64@^2.1.9:
   version "2.6.4"
@@ -9468,7 +9473,7 @@ nan@^2.12.1, nan@^2.14.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
-nanoid@^3.1.18, nanoid@^3.1.20:
+nanoid@^3.1.20:
   version "3.1.20"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==

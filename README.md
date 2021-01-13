@@ -28,7 +28,7 @@
 [donate-src]: https://img.shields.io/badge/paypal-donate-black.svg?style=flat
 [donate-href]: https://www.paypal.com/paypalme2/luxdamore
 
-> 'We are people, not machines'. An initiative to know the creators of a website. Contains the information about humans to the web building - A Nuxt Module to statically integrate and generate a humans.txt author file.
+> 'We are people, not machines'. An initiative to know the creators of a website. Contains the information about humans to the web building - A Nuxt Module to statically integrate and generate a humans.txt author file - Based on the HumansTxt Project.
 
 ## 💘 Motivation
 

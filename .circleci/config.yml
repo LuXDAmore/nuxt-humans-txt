@@ -1,8 +1,8 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node
+      - image: circleci/node@3.0.0
     steps:
       # Checkout repository
       - checkout
@@ -30,7 +30,7 @@ jobs:
       # Tests
       - run:
           name: Tests
-          command: yarn jest
+          command: yarn test
 
       # Coverage
       - run:

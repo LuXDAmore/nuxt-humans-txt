@@ -45,6 +45,9 @@ Because it's something fast to create. Because it's not intrusive with the code.
 Whoever you want to, provided they wish you to do so. You can mention the developer, the designer, the copywriter, the webmaster, the SEO, SEM or SMO...
 As you can see, the number of people who may take part of the creation of a site can be big, so the list is almost endless.
 
+**Humans.txt**
+You can read more about it, on the [HumansTxt project page](http://humanstxt.org/).
+
 ___
 
 #### 💡 Lighthouse
@@ -92,30 +95,9 @@ ___
                 href: '',
                 hid: 'humans-txt',
             },
+            keepDevelopersInformations: true, // Keep info of my work in your `humans.txt` file 😍
             // "The internet is for humans"
-            thanksTo: [
-                // Simple string can be added for comments rows
-                'TEAM',
-                // Objects { key: 'foo', value: 'bar' } for rows with different values
-                {
-                    key: 'Plugin maker',
-                    value: 'Luca Iaconelli',
-                },
-                {
-                    key: 'From',
-                    value: 'Faenza, Italy',
-                },
-                {
-                    key: 'Twitter',
-                    value: '@luxdamore',
-                },
-                {
-                    key: 'Instagram',
-                    value: 'https://www.instagram.com/luxdamore',
-                },
-                // Falsy values for empty-lines
-                false,
-            ],
+            thanksTo: [],
             site: [
                 'SITE',
                 {
@@ -156,6 +138,63 @@ ___
             ],
         },
     };
+
+```
+
+___
+
+*Ex. of config:*
+
+```js
+
+    // nuxt.config.js
+    export default {
+        humansTxt: {
+            thanksTo: [
+                // Simple string can be added for comments rows
+                'TEAM',
+                // Objects { key: 'foo', value: 'bar' } for rows with different values
+                {
+                    key: 'Plugin maker',
+                    value: 'Luca Iaconelli',
+                },
+                {
+                    key: 'From',
+                    value: 'Faenza, Italy',
+                },
+                {
+                    key: 'Twitter',
+                    value: '@luxdamore',
+                },
+                {
+                    key: 'Instagram',
+                    value: 'https://www.instagram.com/luxdamore',
+                },
+                // Falsy values for empty-lines
+                false,
+            ],
+        },
+    };
+
+```
+
+*Ex. of generated txt:*
+
+```txt
+
+    /* TEAM */
+    Plugin maker: Luca Iaconelli
+    From: Faenza, Italy
+    Twitter: @luxdamore
+    Instagram: https://www.instagram.com/luxdamore
+
+    /* SITE */
+    Last update: 01/13/2021
+    Standards: HTML5, CSS3, Javascript
+    Components: VueJs
+    Software: NuxtJs
+    Language: English
+    Doctype: HTML5
 
 ```
 

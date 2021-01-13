@@ -1,0 +1,13 @@
+public/
+docs/
+
+dist/
+ssr/
+
+bower_components/
+node_modules/
+.vscode/
+.nuxt/
+
+*.min.*
+**/*.min.*

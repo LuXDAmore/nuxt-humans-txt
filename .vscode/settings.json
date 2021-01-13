@@ -1,0 +1,81 @@
+{
+    // CSS
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "html.validate.styles": false,
+    // Markdown
+    "markdownlint.ignore": [
+        "CHANGELOG.md"
+    ],
+    // ESLint
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "stylelint.enable": true,
+    "stylelint.snippet": [
+        "css",
+        "less",
+        "postcss",
+        "sass",
+        "scss",
+        "stylus"
+    ],
+    // Vue
+    "vetur.format.styleInitialIndent": true,
+    "vetur.validation.template": false,
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatter.ts": "prettier-tslint",
+    "vetur.format.options.tabSize": 4,
+    "prettier.vueIndentScriptAndStyle": true,
+    "vetur.experimental.templateInterpolationService": true,
+    // Colors
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#65c89b",
+        "activityBar.activeBorder": "#945bc4",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#945bc4",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#42b883",
+        "titleBar.inactiveBackground": "#42b88399",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveForeground": "#15202b99",
+        "statusBar.background": "#42b883",
+        "statusBarItem.hoverBackground": "#359268",
+        "statusBar.foreground": "#15202b",
+        "activityBar.activeBackground": "#65c89b"
+    },
+    "peacock.color": "#42b883",
+    // Dictionary
+    "cSpell.ignorePaths": [
+        ".vscode",
+        "dist",
+        "ssr",
+        "node_modules",
+        "bower_components",
+        ".git"
+    ],
+    "cSpell.language": "en,it",
+    "cSpell.allowCompoundWords": true,
+    "cSpell.ignoreWords": [
+        "pbody",
+        "phead"
+    ],
+    "cSpell.words": [
+        "audiotsm",
+        "jabrils",
+        "numpy",
+        "scipy"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    // List of extensions which should be recommended for users of this workspace.
+    "recommendations": [
+        "octref.vetur",
+        "tlahmann.alex-linter",
+        "mrmlnc.vscode-apache",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "kevinkyang.auto-comment-blocks",
+        "dzannotti.vscode-babel-coloring",
+        "editorconfig.editorconfig",
+        "davidanson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "dbaeumer.vscode-eslint",
+        "mohseenrm.lit-it",
+        "mubaidr.vuejs-extension-pack",
+        "jeremyrajan.webpack",
+        "eg2.vscode-npm-script",
+        "stylelint.vscode-stylelint",
+        "wallabyjs.quokka-vscode",
+        "formulahendry.auto-complete-tag",
+        "mrmlnc.vscode-attrs-sorter",
+        "wayou.vscode-todo-highlight",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "jock.svg",
+        "dariofuzinato.vue-peek",
+        "christian-kohler.npm-intellisense",
+        "sdras.vue-vscode-snippets",
+        "redhat.vscode-yaml",
+        "hookyqr.beautify",
+        "wmaurer.change-case",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "christian-kohler.path-intellisense",
+        "github.vscode-pull-request-github",
+        "naumovs.color-highlight",
+        "wix.vscode-import-cost",
+        "xabikos.javascriptsnippets",
+        "esbenp.prettier-vscode",
+        "cssho.vscode-svgviewer",
+        "dotjoshjohnson.xml",
+        "box-of-hats.bemhelper",
+        "donjayamanne.githistory",
+        "eamodio.gitlens"
+    ],
+    // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+    "unwantedRecommendations": []
+}

@@ -152,10 +152,10 @@ ___
         humansTxt: {
             thanksTo: [
                 // Simple string can be added for comments rows
-                'TEAM',
+                'BACKSTAGE',
                 // Objects { key: 'foo', value: 'bar' } for rows with different values
                 {
-                    key: 'Plugin maker',
+                    key: 'HumansTxt Plugin developer',
                     value: 'Luca Iaconelli',
                 },
                 {
@@ -173,6 +173,8 @@ ___
                 // Falsy values for empty-lines
                 false,
             ],
+            // Remove extra greets 😢
+            keepDevelopersInformations: false,
         },
     };
 
@@ -182,8 +184,8 @@ ___
 
 ```txt
 
-    /* TEAM */
-    Plugin maker: Luca Iaconelli
+    /* BACKSTAGE */
+    HumansTxt Plugin developer: Luca Iaconelli
     From: Faenza, Italy
     Twitter: @luxdamore
     Instagram: https://www.instagram.com/luxdamore

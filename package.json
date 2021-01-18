@@ -9,6 +9,8 @@
         "nuxt",
         "modules",
         "humans",
+        "robots",
+        "robots-txt",
         "humans-txt",
         "author",
         "static"
@@ -64,7 +66,7 @@
         "@commitlint/cli": "^11.0.0",
         "@commitlint/config-conventional": "^11.0.0",
         "@nuxt/types": "^2.14.12",
-        "@nuxt/typescript-build": "latest",
+        "@nuxt/typescript-build": "^2.0.4",
         "@nuxtjs/browserconfig": "0.0.13",
         "@nuxtjs/component-cache": "^1.1.5",
         "@nuxtjs/eslint-config": "^5.0.0",

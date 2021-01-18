@@ -2,31 +2,28 @@
 
 [![Code Quality][quality-src]][quality-href]
 [![Dependencies][dependencies-src]][dependencies-href]
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
-[![Donate][donate-src]][donate-href]
-
-[npm-version-src]: https://img.shields.io/npm/v/@luxdamore/nuxt-humans-txt/latest.svg?style=flat
-[npm-version-href]: https://npmjs.com/package/@luxdamore/nuxt-humans-txt
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![Donate][paypal-donate-src]][paypal-donate-href]
 
 [quality-src]: https://img.shields.io/badge/code%20quality-A-informational?style=flat
-[quality-href]: https://luxdamore.github.io/generative-art/
-
-[npm-downloads-src]: https://img.shields.io/npm/dt/@luxdamore/nuxt-humans-txt.svg?style=flat
-[npm-downloads-href]: https://npmjs.com/package/@luxdamore/nuxt-humans-txt
-
-[circle-ci-src]: https://img.shields.io/circleci/project/github/LuXDAmore/nuxt-humans-txt.svg?style=flat
-[circle-ci-href]: https://circleci.com/gh/LuXDAmore/nuxt-humans-txt
+[quality-href]: https://luxdamore.github.io/nuxt-humans-txt/
 
 [dependencies-src]: https://img.shields.io/badge/dependencies-up%20to%20date-darkgreen.svg?style=flat
 [dependencies-href]: https://npmjs.com/package/@luxdamore/nuxt-humans-txt
 
-[license-src]: https://img.shields.io/npm/l/@luxdamore/nuxt-humans-txt.svg?style=flat
-[license-href]: https://npmjs.com/package/@luxdamore/nuxt-humans-txt
+[circle-ci-src]: https://img.shields.io/circleci/project/github/LuXDAmore/nuxt-humans-txt.svg?style=flat&color=darkgreen
+[circle-ci-href]: https://circleci.com/gh/LuXDAmore/nuxt-humans-txt
 
-[donate-src]: https://img.shields.io/badge/paypal-donate-black.svg?style=flat
-[donate-href]: https://www.paypal.com/paypalme2/luxdamore
+[npm-downloads-src]: https://img.shields.io/npm/dt/@luxdamore/nuxt-humans-txt.svg?style=flat&color=orange
+[npm-downloads-href]: https://npmjs.com/package/@luxdamore/nuxt-humans-txt
+
+[npm-version-src]: https://img.shields.io/npm/v/@luxdamore/nuxt-humans-txt/latest.svg?style=flat&color=orange
+[npm-version-href]: https://npmjs.com/package/@luxdamore/nuxt-humans-txt
+
+[paypal-donate-src]: https://img.shields.io/badge/paypal-donate-black.svg?style=flat
+[paypal-donate-href]: https://www.paypal.me/luxdamore
 
 > 'We are people, not machines'. An initiative to know the creators of a website. Contains the information about humans to the web building - A Nuxt Module to statically integrate and generate a humans.txt author file - Based on the HumansTxt Project.
 
@@ -231,6 +228,6 @@ Details changes for each release are documented in the [**release notes**](./CHA
 
 If You want to share a beer, we can be really good friends
 
-__[Paypal](https://www.paypal.com/paypalme/luxdamore) // [Patreon](https://www.patreon.com/luxdamore) // [Ko-fi](https://ko-fi.com/luxdamore)__
+__[Paypal][paypal-donate-href] // [Patreon](https://www.patreon.com/luxdamore) // [Ko-fi](https://ko-fi.com/luxdamore)__
 
 > ☀ _It's always a good day to be magnanimous_ - cit.

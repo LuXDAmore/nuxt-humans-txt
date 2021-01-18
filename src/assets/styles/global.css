@@ -48,3 +48,11 @@ blockquote p {
     margin: 0;
 
 }
+
+pre code {
+
+    display: block;
+    padding: .5em;
+    background: #f8f8f8;
+
+}

@@ -17,12 +17,14 @@ delete config.server;
 config.dev = false;
 
 /*
-*   * Get url for the generated website
+*   * Set url for the generated website
 */
 const BASE_URL = PACKAGE.homepage.replace(
-    'https://luxdamore.github.io/',
-    '/'
-);
+        'https://luxdamore.github.io/',
+        '/'
+    )
+    , TIMING = 90000
+;
 
 /*
 *   * Module testing suite
@@ -48,7 +50,7 @@ describe(
                 );
 
             },
-            90000
+            TIMING
         );
 
         afterAll(
@@ -57,7 +59,7 @@ describe(
                 await nuxt.close();
 
             },
-            90000
+            TIMING
         );
 
         /*
@@ -78,7 +80,7 @@ describe(
                 );
 
             },
-            90000
+            TIMING
         );
 
     }

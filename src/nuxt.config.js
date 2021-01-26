@@ -93,10 +93,7 @@ const isProduction = process.env.NODE_ENV !== 'development'
 ;
 
 // Module installation
-if( isProduction )
-    buildModules.push( module );
-else
-    modules.push( module );
+buildModules.push( module );
 
 // Nuxt Config
 export default {
@@ -224,7 +221,7 @@ export default {
             },
         },
         splitChunks: {
-            layouts: false,
+            layouts: true,
             pages: true,
             commons: true,
         },

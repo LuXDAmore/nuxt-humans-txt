@@ -68,6 +68,7 @@ const isProduction = process.env.NODE_ENV !== 'development'
             href: `${ base }favicon.ico`,
         },
     ]
+    , script = []
     // Plugins and modules
     , plugins = [ '~/plugins/jsonld' ]
     , modules = [
@@ -142,6 +143,7 @@ export default {
         },
         meta,
         link,
+        script,
     },
     /*
     *   * Router

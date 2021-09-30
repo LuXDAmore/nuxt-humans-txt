@@ -170,8 +170,8 @@ ___
                 // Falsy values for empty-lines
                 false,
             ],
-            // Remove extra greets 😢
-            keepDevelopersInformations: false,
+            // Keep extra greets 😍
+            keepDevelopersInformations: true,
         },
     };
 

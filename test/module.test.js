@@ -23,7 +23,7 @@ const BASE_URL = PACKAGE.homepage.replace(
         'https://luxdamore.github.io/',
         '/'
     )
-    , TIMING = 90000
+    , TIMING = 99999
 ;
 
 /*

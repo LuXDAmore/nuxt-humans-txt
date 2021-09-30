@@ -1,0 +1,13 @@
+/* Better UI for the generated Readme */
+.readme ::v-deep > section > p:nth-child(2) {
+
+    font-size: 0;
+
+}
+
+.readme ::v-deep a {
+
+    display: inline-block;
+    margin: 2px 1px;
+
+}

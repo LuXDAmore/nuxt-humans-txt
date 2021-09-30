@@ -10,6 +10,7 @@
     // Code Highlight
     import hljs from 'highlight.js/lib/core';
     import bash from 'highlight.js/lib/languages/bash';
+    import xml from 'highlight.js/lib/languages/xml';
     import javascript from 'highlight.js/lib/languages/javascript';
 
     // Readme
@@ -25,9 +26,20 @@
     ;
 
     // Highlight config
+    hljs.configure(
+        {
+            ignoreUnescapedHTML: true,
+        }
+    );
+
     hljs.registerLanguage(
         'bash',
         bash,
+    );
+
+    hljs.registerLanguage(
+        'xml',
+        xml,
     );
 
     hljs.registerLanguage(
@@ -59,7 +71,7 @@
 
                 for( const block of CODE_BLOCKS ) {
 
-                    hljs.highlightBlock(
+                    hljs.highlightElement(
                         block
                     );
 
@@ -98,18 +110,7 @@
 
 <style src="highlight.js/styles/github.css"></style>
 
-<style scoped>
-    /* Better UI for the generated Readme */
-    .readme ::v-deep > section > p:nth-child(2) {
-
-        font-size: 0;
-
-    }
-
-    .readme ::v-deep a {
-
-        display: inline-block;
-        margin: 2px 1px;
-
-    }
-</style>
+<style
+    scoped
+    src="./index.css"
+></style>

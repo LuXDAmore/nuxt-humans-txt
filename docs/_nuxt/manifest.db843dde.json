@@ -1,0 +1,54 @@
+{
+  "name": "@luxdamore/nuxt-humans-txt",
+  "short_name": "@luxdamore/nuxt-humans-txt",
+  "description": "'We are people, not machines'. An initiative to know the creators of a website. Contains the information about humans to the web building - A Nuxt Module to statically integrate and generate a humans.txt author file - Based on the HumansTxt Project.",
+  "icons": [
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_64x64.fc1071.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_120x120.fc1071.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_144x144.fc1071.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_152x152.fc1071.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_192x192.fc1071.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_384x384.fc1071.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nuxt-humans-txt/_nuxt/icons/icon_512x512.fc1071.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/nuxt-humans-txt/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#42b883",
+  "lang": "en"
+}

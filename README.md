@@ -77,6 +77,7 @@ ___
 
     // nuxt.config.js
     export default {
+        buildModules: [ '@luxdamore/nuxt-humans-txt' ], // For `nuxt < v2.9`, you must use `modules` instead of `buildModules`
         // Default config
         humansTxt: {
             enabled: true,

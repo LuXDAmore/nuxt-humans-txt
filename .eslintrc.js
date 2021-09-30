@@ -20,10 +20,10 @@ module.exports = {
         'plugin:unicorn/recommended',
         '@nuxtjs',
         'prettier',
-        'prettier/vue',
         'plugin:prettier/recommended',
         '@vue/prettier',
         'plugin:vue/strongly-recommended',
+        'plugin:prettier-vue/recommended',
         'plugin:nuxt/recommended',
     ],
     plugins: [
@@ -449,6 +449,9 @@ module.exports = {
         ],
         // Plugins
         // Unicorn
+        'unicorn/prefer-module': 'off',
+        'unicorn/prefer-node-protocol': 'off',
+        'unicorn/numeric-separators-style': 'off',
         'unicorn/import-style': 'off',
         'unicorn/no-hex-escape': 'off',
         'unicorn/no-array-reduce': 'off',
@@ -460,7 +463,7 @@ module.exports = {
         'unicorn/prevent-abbreviations': [
             'warn',
             {
-                whitelist: {
+                allowList: {
                     obj: true,
                 },
             },
